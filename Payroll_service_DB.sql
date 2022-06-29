@@ -152,6 +152,7 @@ alter table employee_payroll drop column deductions, Taxable_Pay, Income_Tax, Ne
 alter table emploee_payroll alter column basic_pay float;
 
 --Store procedure for ADO.net
+
 go
 CREATE PROCEDURE SpAddEmployeeDetails
 (@name VARCHAR(25),
